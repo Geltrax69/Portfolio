@@ -134,9 +134,9 @@ const HomeStitch = () => {
 <div className="relative z-10 text-center space-y-8">
 <h2 className="font-headline text-5xl md:text-7xl font-black tracking-tighter leading-none">Ready to start the next<br/>big iteration?</h2>
 <p className="text-on-primary-container/80 max-w-xl mx-auto text-lg">Currently available for select freelance collaborations and innovative engineering roles.</p>
-<button className="px-12 py-5 bg-background text-on-background rounded-full font-headline font-bold uppercase tracking-widest hover:scale-105 active:scale-95 transition-all duration-300 editorial-shadow">
+<a href="/contact" className="inline-block px-12 py-5 bg-background text-on-background rounded-full font-headline font-bold uppercase tracking-widest hover:scale-105 active:scale-95 transition-all duration-300 editorial-shadow">
                         Let's Talk
-                    </button>
+                    </a>
 </div>
 
 <div className="absolute top-0 right-0 w-64 h-64 bg-primary/20 blur-3xl hand-drawn-accent group-hover:scale-150 transition-transform duration-1000"></div>

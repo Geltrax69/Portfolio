@@ -109,12 +109,12 @@ const WorkStitch = () => {
                 Currently looking for ambitious projects that challenge the boundaries of technical precision and human-centric design.
             </p>
 <div className="flex flex-col sm:flex-row gap-6">
-<button className="bg-primary text-on-primary px-10 py-4 rounded-full font-headline font-bold uppercase tracking-tight hover:scale-105 transition-all duration-300 editorial-shadow">
+<a href="/contact" className="inline-block bg-primary text-on-primary px-10 py-4 rounded-full font-headline font-bold uppercase tracking-tight hover:scale-105 transition-all duration-300 editorial-shadow">
                     Start a Project
-                </button>
-<button className="bg-surface-container-low text-on-surface px-10 py-4 rounded-full font-headline font-bold uppercase tracking-tight hover:scale-105 transition-all duration-300 border border-outline-variant/20">
-                    Download CV
-                </button>
+                </a>
+<a href="/resume_lalit_singh.pdf" target="_blank" className="inline-block bg-surface-container-low text-on-surface px-10 py-4 rounded-full font-headline font-bold uppercase tracking-tight hover:scale-105 transition-all duration-300 border border-outline-variant/20">
+                    View CV
+                </a>
 </div>
 </motion.section>
 </main>
