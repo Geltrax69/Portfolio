@@ -1,0 +1,50 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: 'class',
+  theme: {
+    fontFamily: {
+      display: ['"Plus Jakarta Sans"', 'sans-serif'],
+      headline: ['"Plus Jakarta Sans"', 'sans-serif'],
+      body: ['Inter', 'sans-serif'],
+      label: ['"Space Grotesk"', 'sans-serif'],
+    },
+    extend: {
+      colors: {
+        'background':'#fcf9ef',
+        'on-background':'#1c1c16',
+        'surface':'#fcf9ef',
+        'on-surface':'#1c1c16',
+        'surface-variant':'#e7e0df',
+        'on-surface-variant':'#49454f',
+        'surface-container-lowest':'#ffffff',
+        'surface-container-low':'#f6f3e9',
+        'surface-container':'#f0ede3',
+        'surface-container-high':'#ebe7dd',
+        'surface-container-highest':'#e5e1d7',
+        'primary':'#9d3732',
+        'on-primary':'#ffffff',
+        'primary-container':'#ffdad4',
+        'on-primary-container':'#410000',
+        'secondary':'#5f5e5e',
+        'on-secondary':'#ffffff',
+        'secondary-container':'#e7e0df',
+        'on-secondary-container':'#1c1c16',
+        'tertiary':'#386663',
+        'on-tertiary':'#ffffff',
+        'tertiary-container':'#bcece7',
+        'on-tertiary-container':'#00201e',
+        'error':'#ba1a1a',
+        'on-error':'#ffffff',
+        'error-container':'#ffdad6',
+        'on-error-container':'#410002',
+        'outline':'#857370',
+        'outline-variant':'#d7c1be',
+      }
+    },
+  },
+  plugins: [],
+}

@@ -1,0 +1,51 @@
+Lalit Singh
++91 7008617996 ◇ lalit.builds@gmail.com ◇ LPU, Phagwada, Punjab, India ◇ GitHub ◇ LinkedIn
+SKILLS
+Languages C/C++ STL, Java, React, Flutte, Node.js, Python, Golang
+Tools Github, Postman, Figma, VsCode, GIt
+Soft Skills Problem Solving, Team Collaboration, Communication
+PROJECTS
+School Management Platform (Web + Mobile)Link Jun '24 — Present
+Engineered a full-stack, multi-tenant school platform used across admin workflows (students, staff, academics, fee
+payments, communication, events), with role-based access and secure service boundaries.
+Built and maintained production backend/API architecture with secure authentication, validation, and reliable cross-
+module workflows; resolved critical frontend-backend contract issues through end-to-end debugging.
+Implemented and stabilized push notification delivery (announcements, homework, events, fees) and improved
+session/navigation reliability by fixing token refresh and idle-time route-freeze issues.
+Tech stack: Next.js, React, TypeScript, Node.js, Express.js, MongoDB, Firebase Cloud Messaging (FCM), REST
+APIs, Git/GitHub.
+Government Project: Haryana Sepak Takraw Association (Sports Federation Platform)Link Dec '25 — Feb '26
+Built and delivered a role-based digital platform for a government sports association (Admin, Player, Coach,
+Referee), replacing manual registration/review with end-to-end online workflows (approval, resubmission, status
+tracking, profile management).
+Designed and implemented secure identity and access flows (JWT auth, password reset via phone + Aadhaar
+verification, protected routes, admin controls), plus document handling and profile/photo management for federation
+records.
+Developed core federation operations modules: tournament and participant management, certificates/ID card
+generation/download, dashboard analytics, and centralized content/document management, improving
+operational speed and auditability.
+Tech Stack: React, TypeScript, Vite, Node.js, Express.js, MongoDB (Mongoose), JWT, AWS S3, REST APIs,
+Tailwind CSS, Render.
+CareConnect | Mobile Caregiving Booking App (Flutter)Link Dec '25 — Present
+Built a cross-platform mobile app using Flutter that lets families book verified caregivers for elderly home care
+on hourly and full-day plans.
+Developed the end-to-end booking journey: caregiver discovery and matching, real-time availability/slot booking,
+secure Stripe payments, and booking status tracking for a reliable user experience.
+Implemented scalable backend and data architecture with role-based access and cloud deployment, supporting
+caregiver profiles, appointments, and transaction records in production.
+Tech Stack: Flutter, MongoDB/PostgreSQL, Stripe, AWS/Firebase, Git, GitHub. 
+AWARDS
+Secured 15th rank in the Code-A-thon Dec '23
+Secured 12th rank in the Binary-Bits Oct '24
+CERTIFICATIONS
+Certificate in MERN Stack Development, CipherSchools Jul '25
+Core Java Bootcamp (Zero to Hero), Udemy Feb '24
+EDUCATION
+Bachelor of Technology - Computer Science and Engineering, Lovely Professional University
+(GPA: 6.5)
+Aug '23 — Present
+Punjab, India
+Intermediate, St. Paul's School (GPA: 7.6) 2021 — 2023
+Rourkela, Odisha
+Matriculation, Carmel School (GPA: 8.5) 2019 — 2021
+Rourkela, Odisha
