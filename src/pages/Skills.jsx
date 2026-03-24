@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const SkillsStitch = () => {
   return (
@@ -184,12 +185,12 @@ const SkillsStitch = () => {
 <div className="relative z-10">
 <h2 className="font-headline text-5xl md:text-7xl font-black tracking-tighter mb-8 leading-none">Ready to start the <br/> next <span className="text-primary italic">Chapter</span>?</h2>
 <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-<a href="/contact" className="inline-block bg-primary hover:bg-primary-container text-on-primary px-10 py-5 rounded-full font-headline font-bold text-lg tracking-tight transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_40px_60px_rgba(0,0,0,0.2)]">
+<Link to="/contact" className="inline-block bg-primary hover:bg-primary-container text-on-primary px-10 py-5 rounded-full font-headline font-bold text-lg tracking-tight transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_40px_60px_rgba(0,0,0,0.2)]">
                                 Initiate Collaboration
-                            </a>
-<a href="/work" className="inline-block bg-transparent border border-surface-variant/30 text-surface/80 hover:text-surface px-10 py-5 rounded-full font-headline font-bold text-lg tracking-tight transition-all duration-300">
+                            </Link>
+<Link to="/work" className="inline-block bg-transparent border border-surface-variant/30 text-surface/80 hover:text-surface px-10 py-5 rounded-full font-headline font-bold text-lg tracking-tight transition-all duration-300">
                                 View My Work
-                            </a>
+                            </Link>
 </div>
 </div>
 </div>
@@ -206,7 +207,7 @@ const SkillsStitch = () => {
 <div className="flex gap-8">
 <a className="font-space-grotesk text-sm uppercase tracking-widest text-[#5f5e5e] hover:text-[#9d3732] transition-colors duration-300" href="https://github.com/Geltrax69" target="_blank" rel="noreferrer">Github</a>
 <a className="font-space-grotesk text-sm uppercase tracking-widest text-[#5f5e5e] hover:text-[#9d3732] transition-colors duration-300" href="https://linkedin.com/in/lalitsingh69" target="_blank" rel="noreferrer">LinkedIn</a>
-<a className="font-space-grotesk text-sm uppercase tracking-widest text-[#5f5e5e] hover:text-[#9d3732] transition-colors duration-300" >Source Code</a>
+<a className="font-space-grotesk text-sm uppercase tracking-widest text-[#5f5e5e] hover:text-[#9d3732] transition-colors duration-300" href="https://github.com/Geltrax69/Portfolio" target="_blank" rel="noreferrer">Source Code</a>
 </div>
 </div>
 </footer>
