@@ -56,7 +56,7 @@ const WorkStitch = () => {
 
 <div className="md:col-span-5 md:mt-24 group">
 <div className="relative overflow-hidden rounded-xl bg-surface-container-low transition-all duration-500 hover:editorial-shadow">
-<img alt="React code and interface" className="w-full h-[600px] object-cover opacity-90 transition-opacity duration-500 group-hover:opacity-100" data-alt="Minimalist UI design system overview showing typography and spacing scales on a warm paper texture" src="https://images.unsplash.com/photo-1576091160550-2173ff9e5e3c?q=80&w=2000&auto=format&fit=crop"/>
+<img alt="React code and interface" className="w-full h-[600px] object-cover opacity-90 transition-opacity duration-500 group-hover:opacity-100" data-alt="Minimalist UI design system overview showing typography and spacing scales on a warm paper texture" src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=2000&auto=format&fit=crop"/>
 </div>
 <div className="mt-8">
 <div className="flex gap-3 mb-4">

@@ -22,7 +22,7 @@ const HomeStitch = () => {
 </div>
 <div className="md:col-span-4 relative group">
 <div className="aspect-[4/5] bg-surface-container-highest rounded-xl overflow-hidden editorial-shadow transform transition-transform duration-700 group-hover:scale-[1.02]">
-<img alt="Professional portrait" className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity duration-500" src="/front.png"/>
+<img alt="Professional portrait" className="w-full h-full object-cover object-[center_10%] opacity-90 group-hover:opacity-100 transition-opacity duration-500" src="/front.png"/>
 </div>
 <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/5 hand-drawn-accent -z-10 blur-xl"></div>
 </div>
@@ -52,7 +52,7 @@ const HomeStitch = () => {
 <div className="flex justify-between items-end mb-16">
 <div>
 <h2 className="font-headline text-5xl font-black tracking-tighter mb-4">Latest Builds</h2>
-<p className="text-secondary font-label uppercase tracking-widest text-sm">Selected Project Showcase / 2023-2024</p>
+<p className="text-secondary font-label uppercase tracking-widest text-sm">Selected Project Showcase / 2024 - present</p>
 </div>
 <a className="group flex items-center gap-2 font-label text-sm uppercase tracking-widest text-primary" >
                     View Archive 
@@ -93,7 +93,7 @@ const HomeStitch = () => {
 
 <div className="md:col-span-5 group cursor-pointer">
 <div className="relative overflow-hidden rounded-xl bg-surface-container-low aspect-[3/2] mb-6">
-<img alt="UI design draft" className="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" data-alt="Minimalist UI design layout spread across multiple clean tablet devices on a light wooden desk with organic shadows" src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=2000&auto=format&fit=crop"/>
+<img alt="UI design draft" className="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" data-alt="Minimalist UI design layout spread across multiple clean tablet devices on a light wooden desk with organic shadows" src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=2000&auto=format&fit=crop"/>
 </div>
 <div className="px-2">
 <h3 className="font-headline text-2xl font-bold tracking-tight mb-2">Care Platform</h3>
