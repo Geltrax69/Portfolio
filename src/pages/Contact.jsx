@@ -34,9 +34,16 @@ const ContactStitch = () => {
 <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: "easeOut" }} viewport={{ once: true, margin: "-50px" }}  className="mb-48 px-8 max-w-screen-2xl mx-auto">
 <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-24 items-start">
 <div className="md:col-span-5 sticky top-32">
-<div className="aspect-[4/5] bg-surface-container-highest rounded-xl overflow-hidden shadow-2xl">
-<img alt="Student portrait" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 ease-in-out" data-alt="Modern professional portrait of a young male computer scientist in a minimalist studio setting with soft natural window lighting and warm tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRyOlJyV99MtOKRd1IjJffP02iDgHCEx0oJwT9tKylzsrYnsfYJ8UbIk09Dx-WjuvN7jjW4v2H-r6qlcRLUspMTE_a0_uyq5_pfV5SH9tu4g6G2NMwA9OfXbxRALgKIJH0ZzqZdvjiQQMPRHwq61x-YNcMZiD9eUK1aXstVVC9u1XDpVQ6kRy4a2fnG3HKqYATTdmRYmF6YoiTa9qFYkV5mDVlwBfDDGqFwFGwEXKMfnzXqf7GXHrqatib9BHk9BhSDASg3rpwmXKm"/>
-</div>
+<motion.div 
+  initial={{ opacity: 0, scale: 0.95, rotate: -1 }}
+  whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
+  whileHover={{ scale: 1.02, rotate: 1 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+  viewport={{ once: true }}
+  className="aspect-[4/5] bg-surface-container-highest rounded-xl overflow-hidden shadow-2xl hover:shadow-2xl hover:shadow-primary/20 transition-all duration-500 cursor-pointer"
+>
+<img alt="Student portrait" className="w-full h-full object-contain bg-white p-4 grayscale hover:grayscale-0 transition-all duration-700 ease-in-out" data-alt="Modern professional portrait of a young male computer scientist in a minimalist studio setting with soft natural window lighting and warm tones." src="/front.png"/>
+</motion.div>
 <div className="mt-8 flex gap-4">
 <div className="bg-surface-container-low p-6 rounded-xl flex-1 border border-outline-variant/10">
 <p className="font-label text-xs uppercase tracking-widest text-secondary mb-2">Location</p>
