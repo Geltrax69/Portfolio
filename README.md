@@ -14,6 +14,15 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38BDF8?style=flat&logo=tailwindcss)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-0055FF?style=flat)](https://motion.dev/)
 
+## Screenshots
+
+<p align="center">
+  <img src="./screenshot-ui.png" alt="Portfolio UI" width="100%" />
+  <br />
+  <em>Portfolio header — full interactive content requires live deployment.</em>
+</p>
+
+
 ## What it is
 
 A personal portfolio website for a BTech Computer Science student — editorial-style design with animated page transitions. Pages: Home (hero with portrait), Work (projects), Skills, About/Contact, plus an in-browser resume viewer. Includes helper scripts that were used to generate/personalize the content from a resume PDF.
